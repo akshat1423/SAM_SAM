@@ -13,7 +13,7 @@ function App() {
       <Carousel></Carousel>
 
       <hr />
-      <div id="about" style={{width:'100vw', height:'10vh',backgroundColor: '#191923'}}></div>
+      <div id="about" style={{width:'100vw', height:'10vh',backgroundColor: '#2d2c31'}}></div>
       <About></About>
       <hr />
       <Images></Images>

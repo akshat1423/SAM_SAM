@@ -2,22 +2,22 @@
 
 a{
     text-decoration: none;
-    color: #191923;
+    color: #2d2c31;
     cursor: pointer;
     transition: 0.3s;
 
 }
 a:hover{
-    color: #cdcdcd;
+    color: #e1e1e1;
 }
 .button a:hover{
-    color: #191923;
+    color: #2d2c31;
 }
 
 .button{
     height: 35px;
     width: 40%;
-    border: 2px none #191923;
+    border: 2px none #2d2c31;
     border-radius: 50px;
     font-size: 90%;
     font-weight: 900;
@@ -26,7 +26,7 @@ a:hover{
     
     letter-spacing: 1px;
     background-color: white;
-    color: #191923;
+    color: #2d2c31;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: center;
