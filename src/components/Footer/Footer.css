@@ -1,10 +1,10 @@
-html, body {
+/* html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     height: 100%; 
     box-sizing: border-box;
-}
+} */
 
 .a {
     background-color: #2d2c31;
@@ -95,7 +95,7 @@ html, body {
 .footer-map-icon {
     text-align: center;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     gap: 8px;
 }
@@ -173,5 +173,8 @@ html, body {
 
     .social-icons a {
         margin: 5px;
+    }
+    .footer-map-icon{
+        justify-content: center;
     }
 }

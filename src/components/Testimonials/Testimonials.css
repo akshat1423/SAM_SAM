@@ -10,7 +10,9 @@
     align-items: center;
     padding: 20px;
     background-color: #2d2d2d;
-    color: #fff;
+    color: #0d6dcf;
+    font-size: 60px;
+    font-weight: 700;
   }
   
   .testimonials {
@@ -64,7 +66,7 @@
     }
   
     .testimonials-heading {
-      font-size: 1.8em;
+      font-size: 3.8em;
     }
   }
   
@@ -75,7 +77,7 @@
     }
   
     .testimonials-heading {
-      font-size: 1.5em;
+      font-size: 3.8em;
     }
   
     .testimonials {
@@ -98,7 +100,7 @@
     }
   
     .testimonials-heading {
-      font-size: 1.2em;
+      font-size: 3rem;
     }
   
     .testimonials {
