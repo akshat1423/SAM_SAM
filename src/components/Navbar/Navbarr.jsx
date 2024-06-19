@@ -21,8 +21,9 @@ export default function Navbarr(params) {
     { name: "Home", to: "home", className: "home" },
     { name: "About", to: "about", className: "About" }, // Corrected className from 'About' to 'about'
     { name: "Cities", to: "cities", className: "cities" },
-    { name: "Sponsors", to: "sponsors", className: "sponsors" },
     { name: "Testimonials", to: "testimonials", className: "testimonials" },
+    { name: "Sponsors", to: "sponsors", className: "sponsors" },
+
   ];
 
   const button = [

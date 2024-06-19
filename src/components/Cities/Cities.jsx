@@ -39,7 +39,7 @@ const Cities = () => {
   return (
     <div className="container">
       <h1 className='page-heading'>CITIES</h1>
-      <div className='cities flex flex-row justify-center gap-4'>
+      <div className='cities-main flex flex-row justify-center gap-4'>
         {citiesData.map((city, index) => (
           <motion.div
             key={city.name}
