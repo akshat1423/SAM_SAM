@@ -30,8 +30,6 @@ export default function Comment(props) {
                     value={value}
                     onChange={onChange}
                     placeholder={placeholder}
-                    error={!!error}
-                    helperText={error?.message}
                     variant="outlined"
                     fullWidth
                     InputProps={{

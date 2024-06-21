@@ -1,9 +1,9 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
-import TextField from "@mui/material/TextField";
+import * as React from 'react';
+import Box from '@mui/material/Box';
+import TextField from '@mui/material/TextField';
 import { Controller } from 'react-hook-form';
 
-export default function Comment(props) {
+export default function Text(props) {
     const {label, placeholder, name, control} = props
     return (
     <Controller
@@ -15,25 +15,20 @@ export default function Comment(props) {
             formState,
         }) => (
             <Box
-            // component="form"
-            sx={{
-                "& .MuiTextField-root": { m: 1, width: "100%", height: "20ch" },
-            }}
+            sx={{ '& > :not(style)': {
+                m: 1,
+                width: '100%',
+            }}}
             noValidate
             autoComplete="off"
             >
                 <TextField
-                    id="outlined-multiline-flexible"
-                    label={label}
-                    multiline
-                    rows={5}
-                    value={value}
                     onChange={onChange}
-                    placeholder={placeholder}
-                    error={!!error}
-                    helperText={error?.message}
+                    value={value}
+                    id="outlined-basic"
+                    label={label}
                     variant="outlined"
-                    fullWidth
+                    placeholder={placeholder}
                     InputProps={{
                         style: {
                             color: 'white', // Set the input text color to white
@@ -65,8 +60,8 @@ export default function Comment(props) {
                     }}
                 />
             </Box>
-            )
-        }
+        )
+    }
     />
   );
 }

@@ -25,10 +25,19 @@
     min-width: 250px;
 }
 
+.footer-cities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
 .footer-logo {
     display: flex;
     flex-direction: column;
     align-items: center;
+    scale: 1.4;
 }
 
 .footer-logo img {

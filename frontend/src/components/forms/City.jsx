@@ -5,6 +5,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import { Controller } from "react-hook-form";
+import FormHelperText from "@mui/material/FormHelperText";
 
 export default function City(props) {
   const { label, name, control } = props;
@@ -18,47 +19,45 @@ export default function City(props) {
   return (
     <Box
       sx={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        margin: '0.7rem'
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        margin: "0.7rem",
       }}
     >
-      <Box sx={{ width: '50ch' }}>
-        <FormControl fullWidth>
-          <InputLabel
-            id="demo-simple-select-label"
-            sx={{ color: 'white' }}
-          >
-            {label}
-          </InputLabel>
-          <Controller
-            name = {name}
-            control = {control}
-            render={({
-              field: {onChange, value},
-              fieldState: {error},
-              formState,
-            }) => (
+      <Box sx={{ width: "50ch" }}>
+        <Controller
+          name={name}
+          control={control}
+          render={({
+            field: { onChange, value },
+            fieldState: { error },
+            formState,
+          }) => (
+            <FormControl fullWidth>
+              <InputLabel id="demo-simple-select-label" sx={{ color: "white" }}>
+                {label}
+              </InputLabel>
               <Select
                 labelId="demo-simple-select-label"
                 id="demo-simple-select"
                 value={value}
+                error={!!error}
                 onChange={onChange}
                 sx={{
-                  color: 'white', // Text color
-                  '& .MuiOutlinedInput-notchedOutline': {
-                    borderColor: 'white', // Border color
+                  color: "white", // Text color
+                  "& .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "white", // Border color
                   },
-                  '&:hover .MuiOutlinedInput-notchedOutline': {
-                    borderColor: 'white', // Border color on hover
+                  "&:hover .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "white", // Border color on hover
                   },
-                  '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
-                    borderColor: 'white', // Border color when focused
+                  "&.Mui-focused .MuiOutlinedInput-notchedOutline": {
+                    borderColor: "white", // Border color when focused
                   },
-                  '& .MuiSvgIcon-root': {
-                    color: 'white', // Icon color
-                  }
+                  "& .MuiSvgIcon-root": {
+                    color: "white", // Icon color
+                  },
                 }}
               >
                 <MenuItem value={"Mumbai"}>Mumbai</MenuItem>
@@ -66,9 +65,10 @@ export default function City(props) {
                 <MenuItem value={"Hyderabad"}>Hyderabad</MenuItem>
                 <MenuItem value={"Jaipur"}>Jaipur</MenuItem>
               </Select>
-              )}
-            />
-        </FormControl>
+              <FormHelperText sx={{color: '#d32f2f'}}> {error?.message} </FormHelperText>
+            </FormControl>
+          )}
+        />
       </Box>
     </Box>
   );

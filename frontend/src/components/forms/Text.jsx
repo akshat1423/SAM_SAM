@@ -29,6 +29,8 @@ export default function Text(props) {
                     label={label}
                     variant="outlined"
                     placeholder={placeholder}
+                    error={!!error}
+                    helperText={error?.message}
                     InputProps={{
                         style: {
                             color: 'white', // Set the input text color to white
