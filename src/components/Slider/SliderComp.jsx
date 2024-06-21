@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import Slider from 'react-slick';
-import Image from './image';
+import Image from './Image'
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 

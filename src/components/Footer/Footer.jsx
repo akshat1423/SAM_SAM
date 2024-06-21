@@ -1,5 +1,5 @@
 
-import React from "react";
+import React,{useState} from "react";
 import "./Footer.css";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -11,7 +11,18 @@ import {
   faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
-const Footer = () => {
+const Footer = ({ cityRefs }) => {
+
+
+  const [activeCity, setActiveCity] = useState('');
+
+  const handleCityClick = (cityName) => {
+    setActiveCity(cityName);
+    const cityRef = cityRefs[cityName.toLowerCase()];
+    if (cityRef && cityRef.current) {
+      cityRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <div className="a">
       <div className="footer">
@@ -33,10 +44,15 @@ const Footer = () => {
           </h2>
           <br />
           <ul>
-            <li>Mumbai</li>
-            <li>Pune</li>
-            <li>Hyderabad</li>
-            <li>Jaipur</li>
+{['Mumbai', 'Pune', 'Hyderabad', 'Jaipur'].map((city) => (
+  <li
+    key={city}
+    onClick={() => handleCityClick(city)}
+    style={{ color: activeCity === city ? '#0d6dcf' : 'inherit' }}
+  >
+    {city}
+  </li>
+))}
           </ul>
         </div>
         <div className="footer-section">
