@@ -7,7 +7,7 @@ const Images = () => {
   return (
     <Container id='project'>
         <Zoom>
-            <h1> <span className="green">IMAGES</span></h1>
+            <h1> <span className="green">GALLERY</span></h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto doloremque.</p>
         </Zoom>
         <Slide>
