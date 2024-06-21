@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 import { useTransition, animated } from 'react-spring';
@@ -84,12 +83,8 @@ const Heading = styled.h1`
   transform: translate(-50%, -50%);
   font-size: 5.5rem;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-
   color: white;
-
-
 `;
-
 
 export default Carousel;
 

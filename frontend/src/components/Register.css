@@ -1,0 +1,99 @@
+.faq-background {
+    background-color: #2d2c31;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #2d2c31;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 5rem;
+    margin-bottom: 2rem;
+    background-color: #3f3f40;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 2.25rem;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #fff;
+    line-height: 1.6;
+}
+
+.questions {
+    margin-top: 2rem;
+}
+
+.individual-question {
+    border-bottom: 1px solid #dddddd;
+    padding: 1.5rem 0;
+    padding-left: 2rem;
+}
+
+.individual-question:last-child {
+    border-bottom: none;
+}
+
+.individual-question h4 {
+    font-size: 18px;
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.individual-question h4:hover {}
+
+.individual-question span {
+    display: inline-block;
+    margin-right: 8px;
+    font-weight: bold;
+}
+
+.individual-question p {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.individual-question:hover {
+    background-color: #0d6dcf;
+    border-radius: 8px;
+}
+
+.individual-question p {
+    display: none;
+}
+
+.individual-question.active p {
+    display: block;
+}
+
+.arrow {
+    width: 20px;
+    height: 20px;
+    padding: 0 2rem;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.arrow.down {
+    transform: rotate(180deg);
+}
