@@ -79,14 +79,14 @@ export default function Navbarr(params) {
                 className={`${item.className} ${
                   selectedItem === item.name ? "selected" : ""
                 }`} // Add 'selected' class if item is selected
-                onClick={() => handleClick(item.name, '/register')} // Handle click event and navigate to /register
+                onClick={() => handleClick(item.name, window.open('https://forms.gle/ba4Sa3Q1MxGDB1yFA','_blank'))} // Handle click event and navigate to /register
                 id={item.id}
               >
                 <Link
                   to={item.to}
                   smooth={true}
                   duration={500}
-                  onClick={() => handleClick(item.name, '/register')}
+                  onClick={() => handleClick(item.name, window.open('https://forms.gle/ba4Sa3Q1MxGDB1yFA','_blank'))}
                 >
                   {item.name}
                 </Link>
