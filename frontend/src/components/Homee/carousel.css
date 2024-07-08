@@ -1,0 +1,18 @@
+.samHeading{
+    z-index: 100000;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+
+    @media (max-width: 950px){
+        font-size: 2.3rem;
+    }
+    @media (max-width: 840px){
+        font-size: 2.2rem;
+    }
+    @media (max-width: 450px){
+        font-size: 2.1rem;
+    }
+}
