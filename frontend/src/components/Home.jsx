@@ -8,6 +8,8 @@ import Testimonials from "./Testimonials/Testimonials";
 import Sponsors from "./Sponsors/Sponsors";
 import Footer from "./Footer/Footer";
 import CoverflowCarousel from "./ImageSlider/CoverflowCarousel";
+import Line from "./Line/Line";
+import Ctm from "./CTM/ctm";
 
 import { useRef } from "react";
 
@@ -25,6 +27,8 @@ export default function Home(params) {
       <FakeHeader></FakeHeader>
       <Navbarr></Navbarr>
       <Carousel></Carousel>
+      <Line></Line>
+
 
       <div
         id="about"
@@ -32,6 +36,7 @@ export default function Home(params) {
       ></div>
 
       <About></About>
+
 
       <div
         id="cities"
@@ -55,6 +60,7 @@ export default function Home(params) {
       ></div>
 
       <Sponsors></Sponsors>
+      <Ctm></Ctm>
       {/* <CoverflowCarousel></CoverflowCarousel> */}
       <Footer cityRefs={cityRefs}></Footer>
     </>

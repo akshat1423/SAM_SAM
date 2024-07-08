@@ -57,7 +57,7 @@ export default function Navbarr(params) {
                     to={item.to}
                     smooth={true}
                     duration={500}
-                    onClick={() => handleClick(item.name)}
+                    onClick={() =>{handleClick(item.name);}}
                   >
                     {item.name}
                   </Link>
