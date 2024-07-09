@@ -3,6 +3,7 @@ import './about.css';
 import Aos from 'aos'; // Import aos library for animations
 import 'aos/dist/aos.css'; // Aos styles
 import samImage from '../../assets/about_sam.png';
+import { Zoom } from 'react-awesome-reveal';
 
 export default function About() {
     const [isVisible, setIsVisible] = useState(false);
@@ -26,7 +27,12 @@ export default function About() {
                 <img src={samImage} alt="About SAM Image" />
             </div>
             <div className="aboutHeading">
-                <p>ABOUT SAM</p>
+            <Zoom>
+            <h1 style={{ pointerEvents: 'none' }}>
+                <span className="green">ABOUT SAM</span>
+            </h1>
+            <p></p>
+        </Zoom>
             </div>
             <div className="aboutContent">
                 <p>
