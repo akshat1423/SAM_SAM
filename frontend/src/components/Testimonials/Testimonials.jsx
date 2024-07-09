@@ -1,5 +1,6 @@
 import React from 'react';
 import './Testimonials.css';
+import testimonial from '../../assets/testimonial.png';
 
 const TestimonialsData = [
     {
@@ -34,7 +35,12 @@ const TestimonialsCard = ({ name, image}) => (
 
 const Testimonials = () => (
     <div className="testimonials-container">
-        <h2 className="testimonials-heading">TESTIMONIALS</h2>
+        <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}>
+            <div className="testimonial-image">
+                <img src={testimonial} alt="Testimonial Image" />
+            </div>
+            <h2 className="testimonials-heading">TESTIMONIALS</h2>
+        </div>
         <div className="testimonials">
             {TestimonialsData.map((sponsor, index) => (
                 <TestimonialsCard key={index} {...sponsor} />

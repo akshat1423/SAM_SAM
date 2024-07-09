@@ -95,7 +95,7 @@ export default function Home(params) {
         <Blocks />
       </div>
 
-      <div className="all-content">
+      <div>
         <FakeHeader></FakeHeader>
         <Navbarr></Navbarr>
         <Carousel></Carousel>
@@ -123,8 +123,10 @@ export default function Home(params) {
 
         <Testimonials></Testimonials>
         <Ctm></Ctm>
-        <Footer cityRefs={cityRefs}></Footer>
+        
       </div>
+      
+      <Footer cityRefs={cityRefs}></Footer>
     </>
   );
 }

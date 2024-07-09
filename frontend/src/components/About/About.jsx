@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './about.css';
 import Aos from 'aos'; // Import aos library for animations
 import 'aos/dist/aos.css'; // Aos styles
+import samImage from '../../assets/about_sam.png';
 
 export default function About() {
     const [isVisible, setIsVisible] = useState(false);
@@ -21,6 +22,9 @@ export default function About() {
 
     return (
         <div className={`about ${isVisible ? 'fade-in' : ''}`} id="about" data-aos="fade-up">
+            <div className="sam-image">
+                <img src={samImage} alt="About SAM Image" />
+            </div>
             <div className="aboutHeading">
                 <p>ABOUT SAM</p>
             </div>

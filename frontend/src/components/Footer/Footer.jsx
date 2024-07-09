@@ -44,15 +44,15 @@ const Footer = ({ cityRefs }) => {
           </h2>
           <br />
           <ul>
-     {['Mumbai', 'Pune', 'Delhi','Indore', 'Jaipur'].map((city) => (
-  <li
-    key={city}
-    onClick={() => handleCityClick(city)}
-    style={{ color: activeCity === city ? '#0d6dcf' : 'inherit',cursor: 'pointer' }}
-  >
-    {city}
-  </li>
-))}
+            {['Mumbai', 'Pune', 'Delhi','Indore', 'Jaipur'].map((city) => (
+              <li
+                key={city}
+                onClick={() => handleCityClick(city)}
+                style={{ color: activeCity === city ? '#0d6dcf' : 'inherit',cursor: 'pointer' }}
+              >
+                {city}
+              </li>
+            ))}
           </ul>
         </div>
         <div className="footer-section">

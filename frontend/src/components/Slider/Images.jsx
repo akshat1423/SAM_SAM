@@ -5,15 +5,19 @@ import { Zoom } from 'react-awesome-reveal';
 
 const Images = () => {
   return (
+    <>
     <Container id='project'>
         <Zoom>
-            <h1> <span className="green">SAM Memories</span></h1>
+            <h1 style={{ pointerEvents: 'none' }}>
+                <span className="green">SAM Memories</span>
+            </h1>
             <p></p>
         </Zoom>
         <Slide>
             <SliderComp/>
         </Slide>
     </Container>
+    </>
   )
 }
 
