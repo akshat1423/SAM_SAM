@@ -225,10 +225,9 @@
     }
   }
    */
-
-   .container {
+.container {
   background-color: #2d2c31;
-  padding: 20px;
+  padding: 20px;  
 }
 
 .cities-main {
@@ -256,7 +255,7 @@
   flex: 1;
   border: solid #ccc 2px;
   background-color: #2d2c31;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
   border-radius: 10px;
   transition: transform 0.3s;
@@ -302,6 +301,9 @@
   font-weight: bold;
   margin-bottom: 20px;
   text-align: center;
+  position: relative;
+  /* left: 40%; */
+  z-index: 1000;
 }
 
 @media (max-width: 1200px) {

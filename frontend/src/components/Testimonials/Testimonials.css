@@ -16,6 +16,11 @@
   z-index: 10000;
 }
 
+.testimonial-image:hover {
+  transform: rotateY(10deg) rotateX(10deg);
+  transition: transform 0.3s ease;
+}
+
 .testimonials-heading {
   padding: 20px;
   background-color: transparent;

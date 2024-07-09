@@ -17,12 +17,21 @@
 .sam-image {
     flex: 1;
     max-width: 100%;
+    position: relative;
+    z-index: 10000;
 }
 
 .sam-image img {
     width: 35vw;
     height: auto; 
+    position: relative;
+    z-index: 10000;
 }
+
+.sam-image:hover {
+    transform: rotateY(10deg) rotateX(10deg);
+    transition: transform 0.3s ease;
+  }
 
 .aboutHeading {
     height: 20%;
