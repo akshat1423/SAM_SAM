@@ -115,12 +115,12 @@ export default function Home(params) {
         <Cities cityRefs={cityRefs}></Cities>
         <Images></Images>
 
-{/*         <div
+        <div
           id="testimonials"
           style={{ width: "100vw", height: "10vh", backgroundColor: "transparent" }}
         ></div>
 
-        <Testimonials></Testimonials> */}
+        <Testimonials></Testimonials>
         <Ctm></Ctm>
         
       </div>
