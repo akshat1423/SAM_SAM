@@ -2,10 +2,13 @@
 
 a{
     text-decoration: none;
-    color: #2d2c31;
+    color: #fff;
     cursor: pointer;
     transition: 0.3s;
 
+}
+ .button a{
+    color: black !important;
 }
 a:hover{
     color: #e1e1e1;
