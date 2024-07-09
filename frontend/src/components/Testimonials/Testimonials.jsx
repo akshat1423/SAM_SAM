@@ -35,7 +35,7 @@ const TestimonialsCard = ({ name, image}) => (
 
 const Testimonials = () => (
     <div className="testimonials-container">
-        <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}>
+{/*         <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}>
             <div className="testimonial-image">
                 <img src={testimonial} alt="Testimonial Image" />
             </div>
@@ -45,7 +45,7 @@ const Testimonials = () => (
             {TestimonialsData.map((sponsor, index) => (
                 <TestimonialsCard key={index} {...sponsor} />
             ))}
-        </div>
+        </div> */}
     </div>
 );
 
