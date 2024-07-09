@@ -4,6 +4,7 @@
 
 .green {
     color: #0d6dcf;
+    pointer-events: none;
   }
   
   .slick-list, .slick-slider, .slick-track{

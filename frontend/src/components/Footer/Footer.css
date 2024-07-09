@@ -1,21 +1,23 @@
-
 .a {
     background-color: #3f3f40;
     color: #fff;
     padding: 20px;
-    overflow: auto; 
+    overflow: auto;
+    z-index: 1000;
 }
 
 .footer {
     display: flex;
     flex-wrap: wrap; 
     justify-content: space-between;
+    z-index: 1000;
 }
 
 .footer-section {
     flex: 1;
     margin-bottom: 20px;
     min-width: 250px;
+    z-index: 1000;
 }
 
 .footer-section-logo{
@@ -31,14 +33,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    scale: 1.4;
+    
 }
 
 .footer-logo img {
     max-width: 100%;
     height: auto;
-    scale: 1.4;
+<<<<<<< HEAD
+    scale:0.7;
     
+=======
+    scale: 1.4;
+>>>>>>> ddfc8967280767a2bd5a1d1bc776e56512a96637
 }
 
 .footer-query, .footer-social {
@@ -69,23 +75,32 @@
     margin: 5px;
 }
 
+.footer-social {
+    z-index: 1000;
+}
+.footer-icons {
+    z-index: 1000;
+}
+
 .footer-social .social-icons {
     display: flex;
     justify-content: center;
     list-style-type: none;
     gap: 5%;
     margin-top: 10px;
-    
+    z-index: 1000;
 }
 
 .footer-section ul {
     list-style-type: none;
     padding: 0;
+    z-index: 1000;
 }
 
 .footer-section ul li {
     margin-bottom: 10px;
     list-style-type: none;
+    z-index: 1000;
 }
 
 .footer-section p {
@@ -112,8 +127,6 @@
 }
 .footer-mail:hover{
     transform: scale(1.1);
-
-
 }
 .footer-map-icon a {
     color: #0d6dcf;
@@ -142,10 +155,12 @@
     color: #0d6dcf;
     text-decoration: none;
     transition: transform 0.2s;
+    z-index: 1000;
 }
 
 .social-icons a:hover {
     transform: scale(1.1);
+    z-index: 1000;
 }
 
 #b {

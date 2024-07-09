@@ -10,6 +10,7 @@
     font-size: 3.8rem;
     font-weight: 700;
     text-align: center;
+    z-index: 100;
 }
 
 .profiles {
@@ -28,6 +29,7 @@
     padding: 20px;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
+    z-index: 100;
 }
 
 .profile-card:hover {
