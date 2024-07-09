@@ -10,6 +10,7 @@ import CoverflowCarousel from "./ImageSlider/CoverflowCarousel";
 import Line from "./Line/Line";
 import Ctm from "./CTM/ctm";
 
+
 import { useRef } from "react";
 
 export default function Home(params) {

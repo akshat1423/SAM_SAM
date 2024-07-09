@@ -23,12 +23,12 @@
   }
   
   .testimonials-card {
-    background-color: antiquewhite;
+    background-color: #575758;
     border-radius: 8px;
     padding: 10px;
-    width: 200px;
+    width: 40%;
     margin-right: 20px;
-    color: #0d6dcf;
+    color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -61,7 +61,7 @@
   
   @media (max-width: 1200px) {
     .testimonials-card {
-      width: 180px;
+      width: 70%;
       padding: 8px;
     }
   
@@ -72,7 +72,7 @@
   
   @media (max-width: 768px) {
     .testimonials-card {
-      width: 160px;
+      width: 60%;
       padding: 6px;
     }
   
@@ -95,7 +95,7 @@
   
   @media (max-width: 480px) {
     .testimonials-card {
-      width: 140px;
+      width: 90%;
       padding: 4px;
     }
   

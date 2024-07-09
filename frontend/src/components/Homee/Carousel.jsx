@@ -23,6 +23,18 @@ const images = [
   img_4
 ];
 
+
+const button = [
+  { name: "REGISTER", to: "register", className: "button", id: "button" },
+];
+
+const handleClick = (name, path) => {
+  setSelectedItem(name);
+  if (name === "REGISTER") {
+    navigate(path); // Navigate to the specified path
+  }
+};
+
 const Carousel = () => {
   const [index, setIndex] = useState(0);
 
@@ -52,6 +64,10 @@ const Carousel = () => {
         ))}
         <div className="samHeading">
           <h1>STUDENT ALUMNI MEET</h1>
+          <button className='Hbutton' onClick={() => window.open('https://docs.google.com/forms/u/1/d/1Pv2CtUuLLI1D_DV5jt9AhJPc18mlFJcY6TdTmmqWwY4/edit?usp=drive_web', '_blank')}>
+  REGISTER
+</button>
+
         </div>
       </CarouselWrapper>
     </>
