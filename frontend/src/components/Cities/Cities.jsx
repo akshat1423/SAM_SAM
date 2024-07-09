@@ -225,7 +225,7 @@ const Cities = ({ cityRefs }) => {
       {/* <h1 className='page-heading'>CITIES</h1> */}
       <Zoom>
             <h1 style={{ pointerEvents: 'none' }}>
-                <span className="green">CITIES</span>
+                <span className="page-heading">CITIES</span>
             </h1>
             <p></p>
         </Zoom>
