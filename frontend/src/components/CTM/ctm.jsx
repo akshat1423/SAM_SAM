@@ -1,14 +1,17 @@
 import React from 'react';
 import './ctm.css';
-
+import aditya from'./aditya.jpg';
+import arnav from'./arnav.jpg';
 const profiles = [
     {
         name: 'Arnav Mishra',
-        image: 'https://th.bing.com/th?q=Random+Deafult+Profile+Picture&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=2&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=strict&t=1&mw=247'
+        image: arnav,
+        contact:9534172952
     },
     {
         name: 'Aditya Singh',
-        image: 'https://th.bing.com/th?q=Random+Deafult+Profile+Picture&w=120&h=120&c=1&rs=1&qlt=90&cb=1&dpr=2&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=strict&t=1&mw=247'
+        image: aditya,
+        contact:8954140306,
     }
 ];
 
@@ -21,6 +24,7 @@ const Ctm = () => {
                     <div className="profile-card" key={index}>
                         <img src={profile.image} alt={profile.name} className="profile-image" />
                         <h3 className="profile-name">{profile.name}</h3>
+                        <h3 className="profile-name">{profile.contact}</h3>
                     </div>
                 ))}
             </div>

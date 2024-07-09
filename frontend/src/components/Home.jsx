@@ -5,7 +5,6 @@ import About from "./About/About";
 import Carousel from "./Homee/Carousel";
 import Cities from "./Cities/Cities";
 import Testimonials from "./Testimonials/Testimonials";
-import Sponsors from "./Sponsors/Sponsors";
 import Footer from "./Footer/Footer";
 import CoverflowCarousel from "./ImageSlider/CoverflowCarousel";
 import Line from "./Line/Line";
@@ -18,8 +17,9 @@ export default function Home(params) {
   const cityRefs = {
     mumbai: useRef(null),
     pune: useRef(null),
-    hyderabad: useRef(null),
+    delhi: useRef(null),
     jaipur: useRef(null),
+    indore:useRef(null),
   };
 
   return (
@@ -54,14 +54,8 @@ export default function Home(params) {
 
       <Testimonials></Testimonials>
 
-      <div
-        id="sponsors"
-        style={{ width: "100vw", height: "10vh", backgroundColor: "#2d2c31" }}
-      ></div>
-
-      <Sponsors></Sponsors>
+      
       <Ctm></Ctm>
-      {/* <CoverflowCarousel></CoverflowCarousel> */}
       <Footer cityRefs={cityRefs}></Footer>
     </>
   );

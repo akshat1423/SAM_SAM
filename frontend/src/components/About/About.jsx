@@ -32,12 +32,12 @@ export default function About() {
                     an event where they will get to know ‘what life looks like after getting out of IIT
                     and also what is the current scenario of life in the institute’ from the experiences
                     of our esteemed alumni and the current students (our team), respectively.
-                    Structure:
+                    Structure:<br></br>
                     1. Speech by an alumnus (telling about the life after graduating from the
-                    institute with a broader perspective i.e. not specific to a particular field)
+                    institute with a broader perspective i.e. not specific to a particular field)<br></br>
                     2. Presentation by the Chapter (in case of IITB, we have alumni chapters),
                     briefing about the activities done round the year (the invited students as
-                    well as the current students will get to know about these)
+                    well as the current students will get to know about these)<br></br>
                     3. Common Q&A session where the doubts of students and their parents will
                     be addressed.
                 </p>
