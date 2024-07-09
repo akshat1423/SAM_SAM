@@ -5,11 +5,24 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 import './Slider.css'
 
-import slide_image_1 from "./images/img_1.jpg";
-import slide_image_2 from "./images/img_2.jpg";
-import slide_image_3 from "./images/img_3.jpg";
-import slide_image_4 from "./images/img_4.jpg";
-import slide_image_5 from "./images/img_5.jpg";
+import slide_image_1 from "./images/image1.jpeg";
+import slide_image_2 from "./images/image2.jpeg";
+import slide_image_3 from "./images/image3.jpeg";
+import slide_image_4 from "./images/image4.jpeg";
+import slide_image_5 from "./images/image5.jpeg";
+import slide_image_6 from "./images/image6.jpeg";
+import slide_image_7 from "./images/image7.jpeg";
+import slide_image_8 from "./images/image8.jpeg";
+import slide_image_9 from "./images/image9.jpeg";
+import slide_image_10 from "./images/image10.jpeg";
+import slide_image_11 from "./images/image11.jpeg";
+import slide_image_12 from "./images/image12.jpeg";
+import slide_image_13 from "./images/image13.jpeg";
+import slide_image_14 from "./images/image14.jpeg";
+import slide_image_15 from "./images/image15.jpeg";
+
+
+
 // import slide_image_6 from "./images/img_6.jpg";
 // import slide_image_7 from "./images/img_7.jpg";
 
@@ -34,7 +47,47 @@ let data = [
     {
         img : slide_image_5,
         disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
-    }
+    },
+    {
+      img : slide_image_6,
+      disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+  },
+      {
+    img : slide_image_7,
+    disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+},
+{
+img : slide_image_8,
+disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+},
+{
+img : slide_image_9,
+disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+},
+{
+img : slide_image_10,
+disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+},
+{
+img : slide_image_11,
+disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+},
+{
+img : slide_image_12,
+disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+},
+{
+img : slide_image_13,
+disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+},
+{
+img : slide_image_14,
+disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+},
+{
+img : slide_image_15,
+disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!"
+}
 ];
 
 var settings = {
