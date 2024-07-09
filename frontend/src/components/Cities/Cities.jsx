@@ -184,7 +184,6 @@ import React, { useState } from 'react';
 import './Cities.css';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
-import { Zoom } from 'react-awesome-reveal';
 
 const Cities = ({ cityRefs }) => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -222,13 +221,8 @@ const Cities = ({ cityRefs }) => {
 
   return (
     <div className="container">
-      {/* <h1 className='page-heading'>CITIES</h1> */}
-      <Zoom>
-            <h1 style={{ pointerEvents: 'none' }}>
-                <span className="green">CITIES</span>
-            </h1>
-            <p></p>
-        </Zoom>
+      <h1 className='page-heading'>CITIES</h1>
+      
       <div className='cities-main flex flex-row justify-center gap-4'>
         {citiesData.map((city, index) => (
           <motion.div

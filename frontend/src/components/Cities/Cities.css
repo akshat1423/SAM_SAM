@@ -302,6 +302,8 @@
 }
 
 .page-heading {
+  position: relative;
+  margin-top: 40px;
   color: #0d6dcf;
   font-size: 4rem;
   font-weight: bold;

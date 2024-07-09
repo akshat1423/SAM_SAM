@@ -11,6 +11,7 @@
     font-weight: 700;
     text-align: center;
     z-index: 100;
+    margin-bottom: 20px;
 }
 
 .profiles {
@@ -30,6 +31,7 @@
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
     z-index: 100;
+    margin-bottom:30px;
 }
 
 .profile-card:hover {
