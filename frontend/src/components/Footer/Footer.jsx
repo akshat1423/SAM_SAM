@@ -72,7 +72,7 @@ const Footer = ({ cityRefs }) => {
           <div className="footer-map-icon">
             
             <span className="mail-text">
-              <a href="mailto:web@sarc-iitb.org"><IoMdMail className="footer-map-icon" size={32} color="#0d6dcf" /> &nbsp; web@sarc-iitb.org</a>
+              <a href="mailto:akshat@sarciitb.org"><IoMdMail className="footer-map-icon" size={32} color="#0d6dcf" /> &nbsp; akshat@sarciitb.org</a>
             </span>
           </div>
         </div>
