@@ -20,7 +20,7 @@ export default function Navbarr(params) {
 
   const navigationItems = [
     // Array of navigation items for better maintainability
-    { name: "Home", to: "home", className: "home" },
+    { name: "Student Alumni Meet", to: "home", className: "home" },
     { name: "About", to: "about", className: "About" }, // Corrected className from 'About' to 'about'
     { name: "Cities", to: "cities", className: "cities" },
     { name: "Testimonials", to: "testimonials", className: "testimonials" },
