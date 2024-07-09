@@ -22,7 +22,7 @@
 }
 
 .profile-card {
-    background:antiquewhite;
+    background:#3f3f40;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -52,7 +52,7 @@
 .profile-name {
     font-size: 1.2em;
     margin: 0;
-    color: #333;
+    color: white;
 }
 
 @media (max-width: 600px) {
