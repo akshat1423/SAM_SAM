@@ -19,7 +19,7 @@ const Image = (props) => {
 export default Image;
 
 const Container = styled.div`
-    height: 10rem;
+    height: 10.5rem;
     background-color: #4e5156;
     margin: 0 0.5rem;
     margin-bottom: 5%;
