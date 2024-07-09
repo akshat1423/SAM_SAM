@@ -252,6 +252,11 @@
   background:#00000096;
 }
 
+.green {
+  color: #0d6dcf;
+  pointer-events: none;
+}
+
 .city-section {
   flex: 1;
   border: solid #ccc 2px;

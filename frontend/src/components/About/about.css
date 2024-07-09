@@ -14,6 +14,12 @@
     }
 }
 
+
+.green {
+    color: #0d6dcf;
+    pointer-events: none;
+  }
+  
 .sam-image {
     flex: 1;
     max-width: 100%;
