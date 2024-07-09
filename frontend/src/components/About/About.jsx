@@ -36,8 +36,7 @@ export default function About() {
             </div>
             <div className="aboutContent">
                 <p>
-                The Student Alumni Meet in the city is aimed to be a welcome event for
-                    successful candidates who will be joining IITs and for current IITB students. It is
+                The Student Alumni Meet in the city is aimed to be a welcome event for IITB students. It is
                     an opportunity for them to get guidance from the alumni of IIT Bombay. It will be
                     an event where they will get to know ‘what life looks like after getting out of IIT
                     and also what is the current scenario of life in the institute’ from the experiences

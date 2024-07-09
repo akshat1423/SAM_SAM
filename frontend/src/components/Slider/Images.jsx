@@ -9,7 +9,7 @@ const Images = () => {
     <Container id='project'>
         <Zoom>
             <h1 style={{ pointerEvents: 'none' }}>
-                <span className="green">SAM Memories</span>
+                <span className="green">SAM MEMORIES</span>
             </h1>
             <p></p>
         </Zoom>
