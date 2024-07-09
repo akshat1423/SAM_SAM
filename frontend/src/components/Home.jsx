@@ -10,9 +10,8 @@ import CoverflowCarousel from "./ImageSlider/CoverflowCarousel";
 import Line from "./Line/Line";
 import Ctm from "./CTM/ctm";
 
-import "./Home.css";
 
-import { useRef, useEffect } from "react";
+import { useRef,useEffect } from "react";
 
 export default function Home(params) {
 
@@ -116,12 +115,12 @@ export default function Home(params) {
         <Cities cityRefs={cityRefs}></Cities>
         <Images></Images>
 
-{/*         <div
+        <div
           id="testimonials"
           style={{ width: "100vw", height: "10vh", backgroundColor: "transparent" }}
         ></div>
 
-        <Testimonials></Testimonials> */}
+        <Testimonials></Testimonials>
         <Ctm></Ctm>
         
       </div>
