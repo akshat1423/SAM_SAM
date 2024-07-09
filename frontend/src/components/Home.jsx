@@ -11,7 +11,7 @@ import Line from "./Line/Line";
 import Ctm from "./CTM/ctm";
 
 
-import { useRef } from "react";
+import { useRef,useEffect } from "react";
 
 export default function Home(params) {
 

@@ -4,6 +4,8 @@ import amit from './amit.jpg'
 import aadit from './aadit.jpg'
 import krish from './krish.png'
 
+import testimonial from '../../assets/testimonial.png'
+
 const TestimonialsData = [
     {
         name: 'AADIT SULE',
