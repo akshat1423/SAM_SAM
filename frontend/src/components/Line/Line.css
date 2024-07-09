@@ -18,7 +18,8 @@
     display: flex;
     padding: 2vw 0;
     overflow: hidden;
-    z-index: 10000;
+    z-index: 0;
+    position: absolute;
 }
 
 .marque {
