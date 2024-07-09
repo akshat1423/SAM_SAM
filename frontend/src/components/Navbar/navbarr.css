@@ -7,8 +7,7 @@ a{
     transition: 0.3s;
 
 }
-
-a .button {
+ .button a{
     color: black !important;
 }
 a:hover{
