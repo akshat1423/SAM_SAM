@@ -222,6 +222,7 @@ const Cities = ({ cityRefs }) => {
   return (
     <div className="container">
       <h1 className='page-heading'>CITIES</h1>
+      
       <div className='cities-main flex flex-row justify-center gap-4'>
         {citiesData.map((city, index) => (
           <motion.div
