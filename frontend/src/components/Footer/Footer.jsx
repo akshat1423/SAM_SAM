@@ -4,6 +4,7 @@ import "./Footer.css";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import sarclogo from "./sarclogo.png";
 import {
   faFacebook,
   faInstagram,
@@ -29,8 +30,7 @@ const Footer = ({ cityRefs }) => {
         <div className="footer-section-logo">
           <div className="footer-logo">
             <img
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABSBAMAAABu5sHcAAAABGdBTUEAALGPC/xhBQAAAAFzUkdCAK7OHOkAAAAhUExURfr49kdwTPr59/r49vr49vr49vr49vr49vr49vr49vr49u7ZVLwAAAALdFJOU/8AEuwrSpy302aEfP2XowAABBhJREFUWMPtl89z2kYUx9+MpoT0thrpYG6rEYnhpFStQ32Thh+xbxBjsE9NjGXsE53ww3BiBmNDTgkuv3yqXYfG/JV9K2QXJIw34dCZDk/DDOyuPnr71b7vLkCWDFgBVoD/HyB2Nbbj83cCQnkN7Hj1fQApD7AUIAtzAZQXIBUA9EiLxe9T/cGhyQkIa+A/7qZZJP/tVvORKuUDZEGYMzSO2BQXQPwL/B1Pr8iEyXEBUIJNbwKIBTjjA2jQJMsAZICiuw8zGsCc9scA711d8t2OyUTs8E3B+6Sw3qql8y3O1yjVoe0GAAjnOzucC0n6DTZcjwrg/IUSby2IlyB0PBkgIclbCwmATZNOYgoAPxNRsYM+AQihGZzfDe2I2oPXKg0EPKPb4/FoZFldw8k1Gt1Ld/fS1F2NB5ivPonXt3aTsvUB21IDXdMFTderNkHaP23Ygwy3H+xqD4YArydyKLgMIHfpNEZYUYi7jcmve3HmORLGR0oUJ62zywcs3hNy7p8DIMG8rtnBum+kq9SkGtsZ22Va2JgjIlvbgh2G15XVK+sEL4uZazOgF513o0ZZ7GEyz6lcB7iwrJE1OjEW7Asoh39XazoAR265gGnj7w3j6Y0Fpy7cnd6KMwDmup0BTo5nZ8qg+OkoqjANQNd8fwDPDB4Ajj0Te/rNDADnXyrAD1x7o4z+FKqjQ8wACtCuw098gDr8Yk93GiDZgFe8gI8FAdfuNCBY588AK+tc8xnELWK1zqlBQoOy9ivxvMbbgsd25gLQzYWxeyGhBEIKF0iKA7BdB/++CyD1AXwGlkKbPgbYmrhJOt1DG/CFHwD7FsbRKSsQtlcKtckWTD2At46d6Kwci4F7wMbX+3KOJO1DgGM73mL6NOUHEQMBaIMzAExezDzYTnIRQC+RgLY5HNIZAHMk+eBxwKXmhB7BJRTA48qFkRBgsx/RGxE2L1u+rQ86sxNd9wLiVrlcwSifdHE3ktGKx0a4XKnGmGR76DJ+do8YG1UqRyirVwMlqqrMfUyTPcneDbAt6mxt6sG9FbC2qKrQbz2pvph/UuAHiAV4vtxZ+U/4kS4ERIkZS6dQJdQqliJBQzIlXG+SGaQqtYvJtxjQUw77FzkiV6
-                   pEPjqmmetw8WX5hsSLiVRvAnD7oQvwt1qN1kwiVwck/kfm89tiork+LJI3zfDhMS9APKEkWO2TvvHi3aA5YACxX1Mr9vHpDfi4AHKjLY6M8LtReXS4HrkRy0fKIEm+JYNSlvaT8evR11ppPV2SWq1kxgE8ISID1DCDWp/Gj3tJK1sqrd+V1orx66zBBbhSvohdtJ5RDj+HZBjqfAlYqbVO8HqbD6DYFxHZS1fxq0gV0aQiuwgX4KkYLAvI/ueAbet4OcDq3/sKsAIsin8AoyIsCVxS3u8AAAAASUVORK5CYII="
+              src={sarclogo}
               alt="sarclogo"
             ></img>
           </div>
