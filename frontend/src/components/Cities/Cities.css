@@ -1,4 +1,4 @@
-/* .container {
+/* /* .container {
     background-color: #2d2c31;
     padding: 20px;
   }
@@ -101,7 +101,7 @@
       font-size: 1.5rem;
     }
   }
-   */
+   
 
    .container {
     background-color: #2d2c31;
@@ -224,4 +224,123 @@
       font-size: 1.5rem;
     }
   }
-  
+   */
+
+   .container {
+  background-color: #2d2c31;
+  padding: 20px;
+}
+
+.cities-main {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  padding: 20px;
+  background-color: #2d2c31;
+  margin: 0 auto;
+}
+
+.heading {
+  color: #0d6dcf;
+}
+
+.city-section a {
+  color: white;
+  text-decoration: none;
+  transition: transform 0.2s;
+}
+
+.city-section {
+  flex: 1;
+  border: solid #ccc 2px;
+  background-color: #2d2c31;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+}
+
+.mumbai-default {
+  background-image: url(https://images.pexels.com/photos/11327644/pexels-photo-11327644.jpeg?auto=compress&cs=tinysrgb&w=800);
+}
+
+.img {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.mumbai, .jaipur, .delhi,.indore, .pune {
+  padding: 20px;
+}
+
+.city-section h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.city-section a {
+  margin-top: 10px;
+}
+
+.city-section p {
+  margin-top: 5px;
+}
+
+.page-heading {
+  color: #0d6dcf;
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1200px) {
+  .cities-main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .city-section {
+    width: 80%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-heading {
+    font-size: 2.5rem;
+  }
+
+  .city-section {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-heading {
+    font-size: 3rem;
+  }
+
+  .city-section {
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .mumbai, .jaipur, .delhi,.indore, .pune {
+    padding: 10px;
+  }
+
+  .city-section h1 {
+    font-size: 1.5rem;
+  }
+}
