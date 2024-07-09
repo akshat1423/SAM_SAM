@@ -54,7 +54,7 @@ const Testimonials = () => (
     <div className="testimonials-container">
         <div style={{ display: 'flex', justifyContent: 'center', alignContent: 'center' }}>
             <div className="testimonial-image">
-                <img src={testimonial} alt="Testimonial Image" />
+                <img src={testimonial} alt="Testimonial Image" style={{height:'100px'}} />
             </div>
             <h2 className="testimonials-heading">TESTIMONIALS</h2>
         </div>
