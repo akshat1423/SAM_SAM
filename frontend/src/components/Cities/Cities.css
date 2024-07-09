@@ -242,13 +242,14 @@
 }
 
 .heading {
-  color: #0d6dcf;
+  color: white;
 }
 
 .city-section a {
   color: white;
   text-decoration: none;
   transition: transform 0.2s;
+  background:#00000096;
 }
 
 .city-section {

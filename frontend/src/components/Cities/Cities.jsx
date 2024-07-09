@@ -197,11 +197,11 @@ const Cities = ({ cityRefs }) => {
   };
 
   const citiesData = [
-    { name: 'Mumbai', img: 'url(https://wallpapercave.com/wp/wp4646412.jpg)', date: '13th July,2024', location: "https://maps.app.goo.gl/2jCgPgpVNyKiBxVX7", Timings: '10:00 AM - 1:00 PM',loc:' Fynd, WeWork Vijay Diamond, Cross Rd B, M.I.D.C, Ajit Nagar, Kondivita, Andheri East, Mumbai, Maharashtra 400093'  },
-    { name: 'Pune', img: 'url(https://i.pinimg.com/originals/0f/67/eb/0f67eb672b9e06d118b11017e535fe71.jpg)', location: 'https://maps.app.goo.gl/bxz1vbvxb2PKZYrV8', date: '14th July,2024', Timings: '1:00 PM - 4:00 PM' ,loc:'Lane, 3, near Vijay Sales - Baner, Pallod Farms, Baner, Pune, Maharashtra 411045' },
-    { name: 'Delhi', img: 'url(https://imgcld.yatra.com/ytimages/image/upload/v1461929855/Delhi-Red_Fort1.jpg)', date: '14th July,2024', location: "https://maps.app.goo.gl/x96M3irs2hkxyJVN8", Timings: '2:00 PM - 4:00 PM' ,loc:'Synergy Building, IIT Campus, Indian Institute of Technology Delhi, Hauz Khas, New Delhi, Delhi 110016' },
+    { name: 'Mumbai', img: 'url(https://wallpapercave.com/wp/wp4646412.jpg)', date: '13th July,2024', location: "https://maps.app.goo.gl/2jCgPgpVNyKiBxVX7", Timings: '10:00 AM - 1:00 PM',loc:' Fynd, WeWork Vijay Diamond, Cross Rd B, M.I.D.C, Ajit Nagar, Kondivita, Andheri East3'  },
+    { name: 'Pune', img: 'url(https://i.pinimg.com/originals/0f/67/eb/0f67eb672b9e06d118b11017e535fe71.jpg)', location: 'https://maps.app.goo.gl/bxz1vbvxb2PKZYrV8', date: '14th July,2024', Timings: '1:00 PM - 4:00 PM' ,loc:'Lane, 3, near Vijay Sales - Baner, Pallod Farms, Baner' },
+    { name: 'Delhi', img: 'url(https://imgcld.yatra.com/ytimages/image/upload/v1461929855/Delhi-Red_Fort1.jpg)', date: '14th July,2024', location: "https://maps.app.goo.gl/x96M3irs2hkxyJVN8", Timings: '2:00 PM - 4:00 PM' ,loc:'Synergy Building, IIT Campus, Indian Institute of Technology Delhi' },
     { name: 'Jaipur', img: 'url(https://img.fotocommunity.com/hawa-mahal-2f825cc6-a187-4b57-8dba-dbd755d091ea.jpg?height=1080)', date: '13th July,2024', location: 'https://maps.app.goo.gl/MNLtkSUr1JFoVuo98', Timings: '4:00 PM - 8:00 PM',loc:'Jai Club (Baramasi Hall)' },
-    { name: 'Indore', img: 'url(https://www.tusktravel.com/blog/wp-content/uploads/2021/08/Gandhi-Hall-Indore-Madhya-Pradesh.jpg)', date: '14th July,2024', location: 'https://maps.app.goo.gl/X8YsHZNg5L3tB2uY7', Timings: '2:00 PM - 5:00 PM' ,loc:'23, Sir M. Visvesvaraya Marg, Vallabh Nagar, Indore, Madhya Pradesh 452003' },
+    { name: 'Indore', img: 'url(https://www.tusktravel.com/blog/wp-content/uploads/2021/08/Gandhi-Hall-Indore-Madhya-Pradesh.jpg)', date: '14th July,2024', location: 'https://maps.app.goo.gl/X8YsHZNg5L3tB2uY7', Timings: '2:00 PM - 5:00 PM' ,loc:'23, Sir M. Visvesvaraya Marg, Vallabh Nagar' },
   ];
 
   const cardVariants = {
@@ -257,8 +257,8 @@ const Cities = ({ cityRefs }) => {
               </a>
               {(hoveredIndex === index) && (
                 <>
-                  <p>{city.date}</p>
-                  <p>{city.Timings}</p>
+                  <p className='city-section'>{city.date}</p>
+                  <p className='city-section'>{city.Timings}</p>
                 </>
               )}
             </div>
