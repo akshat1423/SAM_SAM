@@ -22,9 +22,9 @@
     flex: 1;
     margin-bottom: 20px;
     min-width: 250px;
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer-logo {

@@ -44,7 +44,7 @@ const Footer = ({ cityRefs }) => {
           </h2>
           <br />
           <ul>
-{['Mumbai', 'Pune', 'Hyderabad', 'Jaipur'].map((city) => (
+     {['Mumbai', 'Pune', 'Delhi','Indore', 'Jaipur'].map((city) => (
   <li
     key={city}
     onClick={() => handleCityClick(city)}
