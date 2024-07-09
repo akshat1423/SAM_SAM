@@ -1,9 +1,9 @@
-
 .a {
     background-color: #3f3f40;
     color: #fff;
     padding: 20px;
-    overflow: auto; 
+    overflow: auto;
+    z-index: 1000;
 }
 
 .footer {
@@ -37,8 +37,12 @@
 .footer-logo img {
     max-width: 100%;
     height: auto;
+<<<<<<< HEAD
     scale:0.7;
     
+=======
+    scale: 1.4;
+>>>>>>> ddfc8967280767a2bd5a1d1bc776e56512a96637
 }
 
 .footer-query, .footer-social {
