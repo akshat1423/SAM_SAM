@@ -1,9 +1,9 @@
-
 .a {
     background-color: #3f3f40;
     color: #fff;
     padding: 20px;
-    overflow: auto; 
+    overflow: auto;
+    z-index: 1000;
 }
 
 .footer {
@@ -38,7 +38,6 @@
     max-width: 100%;
     height: auto;
     scale: 1.4;
-    
 }
 
 .footer-query, .footer-social {

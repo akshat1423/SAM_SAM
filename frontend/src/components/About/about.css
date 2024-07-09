@@ -1,9 +1,8 @@
-
 .about {
     overflow:none;
     height: 90vh; 
     width: 100%;
-    background-color: #2d2c31;
+    background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,7 +17,7 @@
 .aboutHeading {
     height: 20%;
     width: 100%;
-    background-color:#2d2c31;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
