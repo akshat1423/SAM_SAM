@@ -12,6 +12,8 @@
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@gsap/react": "^2.1.1",
     "@hookform/resolvers": "^3.6.0",
     "@mui/icons-material": "^5.15.20",
@@ -20,6 +22,7 @@
     "aos": "^2.3.4",
     "axios": "^1.7.2",
     "dayjs": "^1.11.11",
+    "framer-motion": "^11.2.13",
     "gsap": "^3.12.5",
     "material-react-table": "^2.13.0",
     "react": "^18.2.0",
@@ -30,6 +33,7 @@
     "react-router-dom": "^6.23.1",
     "react-scroll": "^1.9.0",
     "react-slick": "^0.30.2",
+    "react-spring": "^9.7.3",
     "slick-carousel": "^1.8.1",
     "styled-components": "^6.1.11",
     "yup": "^1.4.0"
