@@ -1,5 +1,5 @@
 import React from 'react';
-import { Tilt } from 'react-tilt';
+// import { Tilt } from 'react-tilt';
 import './Sponsors.css';
 
 import logo1 from './assets/logo1.png';
@@ -26,13 +26,13 @@ const Sponsors = () => {
     <h2 className='sponsors-heading'>OUR SPONSORS</h2>
     <div className="sponsors-container">
         
-      {sponsors.map((sponsor, index) => (
+{/*       {sponsors.map((sponsor, index) => (
         <Tilt className="tilt" options={tiltOptions} key={index}>
           <div className="sponsor-logo">
             <img src={sponsor.logo} alt={sponsor.name} />
           </div>
         </Tilt>
-      ))}
+      ))} */}
     </div>
     </div>
   );
